@@ -36,7 +36,6 @@ std::vector<int> quicksort(std::vector<int> arr) {
     }
 }
 
-
 int main()
 {
     std::vector<int> obj{10, 5, 2, 3, 0, 0, 0};
@@ -46,4 +45,3 @@ int main()
 
     return 0;
 }
-
