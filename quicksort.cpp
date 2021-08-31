@@ -14,13 +14,12 @@ std::vector<int> operator+(std::vector<int> a, std::vector<int> b) {
     }
 
     for (size_t i = 0; i < a.size(); i++) c.push_back(a[i]);
-
     for (size_t i = 0; i < b.size(); i++) c.push_back(b[i]);
 
     return c;
 }
 
-std::vector<int> quicksort(std::vector<int> arr) {
+std::vector<int> quicksort(std::vector<int>& arr) {
     if (arr.size() < 2) return arr;
     else {
         int num = arr[0];
